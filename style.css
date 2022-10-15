@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-186980.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size:content
+    padding-bottom:80%;
+    color: rgb(255, 128, 24);
+}
+   
+
+.app-wrap{
+    margin: 100px 100px 100px 100px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.location{
+    color: rgb(248, 225, 15);
+}
+
+.current{
+    color: rgb(49, 248, 4);
+}
+
+#temp{
+    font-size: 400%;
+    text-shadow: 10px;
+    text-shadow:  2px 2px #FF0000;
+}
+#weather{
+    font-size: 200%;
+}
+#hi-low
+{
+    font-size: 200%;
+}
+#error{
+    color: red;
+    font-size: 200%;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#heading
+{
+    background-color: rgb(224, 146, 146);
+    color: rgb(241, 11, 11);
+}
